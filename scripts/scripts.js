@@ -67,7 +67,7 @@ function newUserModal(){
 
 
 function heuristicMessage(messageText){
-  
+  $('#heuristic-text').html('Hello');
 }
 
 
