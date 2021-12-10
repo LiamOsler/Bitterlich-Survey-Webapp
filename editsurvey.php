@@ -7,6 +7,8 @@
         <div class="card-body">
             <h4><i class="bi bi-map-fill"></i> Map</h4>
             <div id="map"></div>
+            <i class="bi bi-exclamation-diamond-fill" style = "margin-left: 90%" onclick = "heuristicMessage('match between the system and the real world:')"></i>
+
             <p></p>
 
             <button type="button" class="btn btn-outline-primary" onclick="getLocation()">

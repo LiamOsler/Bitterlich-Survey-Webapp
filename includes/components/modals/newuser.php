@@ -11,6 +11,7 @@
 
         <h6><i class="bi bi-person-circle"></i> Getting Started</h6>
             <p>Welcome to Arborist, the tree surveying companion. We welcome you to explore the application and make an account with Arborist Cloud. 
+
             <div class = "card file-box">
                 <i class="bi bi-person-plus"></i>
                 <p>Account</p>
@@ -25,7 +26,7 @@
                 <i class="bi bi-journal"></i>
                 <p>Guides</p>
             </div>
-        
+
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -61,6 +62,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <i class="bi bi-exclamation-diamond-fill" style = "margin-left: 90%" onclick = "heuristicMessage('Recognition rather than recall: More in-context pictures of the use of the application should be used throughout the design, this can help with recognition')"></i>
 
         <br>
             <h6><i class="bi bi-globe"></i> Arborist Community</h6>

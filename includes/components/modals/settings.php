@@ -88,7 +88,8 @@
 
         </div>
         <div class="modal-footer">
-            <h4>Settings Saved!</h4>
+        <i class="bi bi-exclamation-diamond-fill" onclick = "heuristicMessage('Visibility of system status: when the user activates the toggles, they may believe that the change has occurred instantly')"></i>
+            <button type="button" class="btn btn-success" onclick= "settingsModal()">Change</button>
         </div>
       </div>
     </div>

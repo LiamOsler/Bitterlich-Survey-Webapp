@@ -233,20 +233,28 @@ tr:nth-child(even) {background: rgb(194, 194, 194)}
      margin-right: 1em;
  }
 
- .heuristic-message{
-     height: 6.5em;
+ #heuristic-message{
      background-color: rgb(255, 92, 92);
      width: 100%;
-     margin-bottom: 1em;
      padding-left: 1em;
+     padding-bottom: 1em;
      color: white;  
  }
 
- .heuristic-message i{
-
+ #heuristic-message i{
+    color: white;  
     font-size: 2em;
     display: inline-box !important;
  }
 
+ .bi-exclamation-diamond-fill{
+    color: rgb(255, 92, 92);
+    cursor: pointer;
+ }
+
  .heuristic-text-wrap{
+ }
+
+ .heuristic-text-wrap a{
+     color: white;
  }

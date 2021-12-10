@@ -67,7 +67,8 @@ function newUserModal(){
 
 
 function heuristicMessage(messageText){
-  $('#heuristic-text').html('Hello');
+  $('#heuristic-text').html(messageText);
+  document.getElementById("heuristic-message").style.zIndex = "1000 !important";
 }
 
 

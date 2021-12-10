@@ -1,11 +1,12 @@
-<div class = "heuristic-message">
+<div id = "heuristic-message">
   <div class = "heuristic-text-wrap">
-    <i class="bi bi-exclamation-diamond-fill" onclick = "heuristicMessage('This is heuristic issue #1')"></i>
-    <div id = "heuristic-text">Click on the alert icons to see the annotated heuristic problems</div>
+    <i class="bi bi-exclamation-diamond-fill" onclick = "heuristicMessage('You found the easter egg!')"></i>
+    <div id = "heuristic-text">Click on the alert icons to see the annotated heuristic problems. <a href = "liamosler.ca/arboristapp_milestone2">You can view the unannotated prototype here.</a></div>
   </div>
 </div>  
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
-<a class="navbar-brand" href="index.php">Arborist</a>
+<a class="navbar-brand" href="index.php">Arborist<i class="bi bi-exclamation-diamond-fill" onclick = "heuristicMessage('Recognition rather than recall: these menu options could be better optimized for quick user recognition')"></i>
+</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -45,7 +46,8 @@
           Edit
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Copy</a>
+        <i class="bi bi-exclamation-diamond-fill" onclick = "heuristicMessage('Consistency and standards: when viewed with a portrait orientation, the alignment of text in the global menus is right justified, when it should be left justified')"></i>
+<a class="dropdown-item" href="#">Copy</a>
           <a class="dropdown-item" href="#">Cut</a>
           <a class="dropdown-item" href="#">Paste</a>
           <div class="dropdown-divider"></div>
